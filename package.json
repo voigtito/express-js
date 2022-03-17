@@ -1,0 +1,25 @@
+
+  
+{
+  "name": "express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/voigtito/express.git",
+  "author": "voigtito <voigt.gustavoh@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "build": "tsc --project ./",
+    "start": "npm run src/index.js",
+    "dev:server": "npm run ./src/server.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.10"
+  }
+}
